@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14;
+}
+
+body{
+    background-color:rgba(241, 247, 248, 0.897);
+    width:100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+}
+.instagram-wrapper{
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+.celular{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 50%;
+}
+ .iphone-img{
+    height: 50rem;
+}
+
+.login{
+    display: flex;
+    align-items:center;
+    justify-content: space-arounds;
+    flex-direction: column;
+    width: 50%;
+    height: 34 rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-photo img{
+    height: 6px;
+}
+
+.instagram-img{
+    width: 10%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.profilepic-img{
+    width: 60%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
